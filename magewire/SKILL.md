@@ -1,13 +1,13 @@
 ---
 name: magewire
-description: "Reference for Magewire — Magento 2's reactive component framework inspired by Laravel Livewire v3. Use when building, debugging, or explaining Magewire components, wire:* directives, lifecycle hooks, events, loading states, or any PHP/JS component API. Auto-load when working in a Magewire component class or PHTML template."
+description: "Reference for Magewire — Magento 2's reactive component framework inspired by Laravel Livewire v3. Use when building, debugging, or explaining Magewire components, wire:* directives, lifecycle hooks, events, loading states, or PHP and JavaScript component APIs."
 ---
 
 # Magewire
 
 Magewire is a reactive component framework for Magento 2, heavily inspired by Laravel Livewire v3. It enables full-stack reactive UI without writing JavaScript — components are PHP classes that render PHTML templates, communicate with the server over AJAX, and re-render in place using Alpine.js as the reactive glue.
 
-Load the `magewire-portman` skill as well when syncing or rebuilding ported Livewire source.
+When the sibling `magewire-portman` skill is installed, consult it when syncing or rebuilding ported Livewire source.
 
 ---
 

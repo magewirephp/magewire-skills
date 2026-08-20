@@ -1,6 +1,6 @@
-# Magewire skills
+# Magewire Agent Skills
 
-Agent skills for developing, extending, and maintaining [Magewire 3](https://github.com/magewirephp/magewire).
+Portable skills for developing, extending, and maintaining [Magewire 3](https://github.com/magewirephp/magewire).
 
 Each top-level directory is a standalone skill. Keep its complete directory together so any bundled `references/` remain available to the agent.
 
@@ -14,14 +14,13 @@ Each top-level directory is a standalone skill. Keep its complete directory toge
 | `magewire-portman` | Syncing Magewire's ported Livewire source |
 | `magewire-theming` | Theme compatibility modules, Hyvä, Hyvä Checkout, Tailwind, and admin boundaries |
 
-## Install
+## Compatibility
 
-Clone this repository, then copy or symlink the skill directories you need into the skills directory supported by your coding agent. For project-local Claude Code usage, for example:
+The repository follows the open [Agent Skills specification](https://agentskills.io/specification): every skill is a directory with a `SKILL.md` entrypoint and optional relative resources. The canonical skills contain no client-specific manifests, tool names, permission grants, or installation paths.
 
-```bash
-mkdir -p .claude/skills
-cp -R /path/to/magewire-skills/magewire* .claude/skills/
-```
+Use the discovery or installation mechanism documented by your agent client and install each selected directory intact. Agents without native Agent Skills support can still use the Markdown instructions as context, provided referenced files remain accessible.
+
+Execution permissions remain under the control of the agent client and the user; these skills do not pre-authorize commands or repository changes.
 
 The skills complement the [Magewire documentation](https://docs.magewirephp.nl/). The tagged source and release history in `magewirephp/magewire` remain authoritative when a skill, documentation page, or third-party integration disagrees with the framework.
 

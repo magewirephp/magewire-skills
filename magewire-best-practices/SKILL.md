@@ -8,7 +8,7 @@ metadata:
 
 # Magewire Best Practices
 
-Best practices for Magewire development in Magento 2, prioritized by impact. Each rule teaches what to do and why. For deeper API reference, load the `magewire`, `magewire-architecture`, or `magewire-javascript` skills.
+Best practices for Magewire development in Magento 2, prioritized by impact. Each rule teaches what to do and why. When installed, consult the sibling `magewire`, `magewire-architecture`, or `magewire-javascript` skills for deeper API guidance.
 
 ## Consistency First
 
@@ -137,4 +137,4 @@ Check sibling components, related Features, existing DI config, and neighboring 
 
 1. Identify the file type and select relevant sections (e.g., component → 1, 2, 3; template → 4, 7; DI config → 6; JS → 9)
 2. Check sibling files for existing patterns — follow those first per Consistency First
-3. For API syntax, load the `magewire` skill for component API or `magewire-architecture` for internals
+3. When installed, consult `magewire` for component APIs or `magewire-architecture` for internals

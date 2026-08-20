@@ -8,7 +8,7 @@ metadata:
 
 # Magewire Theming
 
-Load the `magewire`, `magewire-architecture`, `magewire-javascript`, and `magewire-best-practices` skills when the task crosses into those areas.
+When installed, consult the sibling `magewire`, `magewire-architecture`, `magewire-javascript`, and `magewire-best-practices` skills when the task crosses into those areas.
 
 Magewire core is theme-agnostic. Since 3.2, maintained integrations are standalone Composer packages, not folders below the core repository:
 
